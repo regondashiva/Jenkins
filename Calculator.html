@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+
+<h2>Calculator</h2>
+
+Number 1:
+<input type="text" id="a"><br><br>
+
+Number 2:
+<input type="text" id="b"><br><br>
+
+<button onclick="add()">Add</button>
+
+<h3 id="result"></h3>
+
+<script>
+
+function add(){
+
+    let a = parseInt(document.getElementById("a").value);
+    let b = parseInt(document.getElementById("b").value);
+
+    document.getElementById("result").innerHTML =
+        a + b;
+
+}
+
+</script>
+
+</body>
+</html>
