@@ -1,7 +1,7 @@
 # calculator.py
 
 a = 200
-b = 100
+b = 1
 
 add = a + b
 sub = a - b
